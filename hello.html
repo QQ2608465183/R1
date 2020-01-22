@@ -1,6 +1,43 @@
-<html>
-  <body>
-    <p>Hello Python!<p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <style>
+        label{
+            color: red;
+            font-size: 18px;
+            background-color: aqua;
+        }
+        body{
+            background-color: darkorchid;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <p>
+        <label>姓名：</label><input type="text" name="username" />
+    </p>
+    <p>
+        <label>密码：</label><input type="password" name="password" />
+    </p>
+    <p>
+        <label>性别：</label>
+        <input type="radio" name="sex" value="0"/> 男s
+        <input type="radio" name="sex"autocapitalize="characters.[class]=" expression"" value="1"/> 女
 
+    </p>
+    <p>
+        <label>兴趣：</label>
+        <input type="checkbox" name="hobby" value="sing"/> 唱歌
+        <input type="checkbox" name="hobby" value="swim"/> 游泳
+        <input type="checkbox" name="hobby" value="skate"/> 滑冰
+    </p>
+    <p>
+        <input type="submit" value="提交" />
+        <input type="reset" value="重制" />
+    </p>
+</form>
+</body>
 </html>
